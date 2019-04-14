@@ -23,4 +23,6 @@ public interface AtividadeRepository extends JpaRepository<Atividade, Long> {
 
 	Page<Atividade> findByTarefaId(@Param("tarefaId") Long tarefaId, Pageable pageable);
 
+	
+
 }
